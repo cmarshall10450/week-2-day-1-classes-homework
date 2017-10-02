@@ -30,4 +30,11 @@ class TestTeam < MiniTest::Test
 		assert_equal(4, @team.players.count)
 	end
 
+	def test_player_in_team__player_in_team
+		assert_equal(true, @team.player_in_team?('Luke Ayling'))
+	end
+
+	def test_player_in_team__player_not_in_team
+		assert_equal(false, @team.player_in_team?('Not A Player'))
+	end
 end
