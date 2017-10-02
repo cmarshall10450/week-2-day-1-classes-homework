@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7699c6e3-95a6-43ed-9623-6bf363095434" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Team.rb" afterPath="$PROJECT_DIR$/Team.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/specs/Team.spec.rb" afterPath="$PROJECT_DIR$/specs/Team.spec.rb" />
-    </list>
+    <list default="true" id="7699c6e3-95a6-43ed-9623-6bf363095434" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -155,12 +152,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1506955601638</updated>
-      <workItem from="1506955602912" duration="1544000" />
+      <workItem from="1506955602912" duration="1599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1544000" />
+    <option name="totallyTimeSpent" value="1599000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1173" extended-state="6" />
