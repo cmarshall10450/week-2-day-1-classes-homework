@@ -12,9 +12,7 @@ class Library
 	end
 
 	def get_book_rental_details(title)
-		for book in books
-			return book[:rental_details] if book[:title] == title
-		end
+		get_book_by_name(title)[:rental_details]
 	end
 
 	def add_new_book(title)
@@ -30,11 +28,10 @@ class Library
 	end
 
 	def update_rental_details(title, name, date)
-		for book in @books
-			if book[:title] == title
-				book[:rental_details][:student_name] = name
-				book[:rental_details][:date] = date
-			end
+		book = get_book_by_name(title)
+		if book
+			book[:rental_details][:student_name] = name
+			book[:rental_details][:date] = date
 		end
 	end
 
