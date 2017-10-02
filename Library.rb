@@ -9,10 +9,15 @@ class Library
 		for book in books
 			return book if book[:title] == title
 		end
+
+		return nil
 	end
 
 	def get_book_rental_details(title)
-		get_book_by_name(title)[:rental_details]
+		book = get_book_by_name(title)
+		if book
+			return book[:rental_details]
+		end
 	end
 
 	def add_new_book(title)
