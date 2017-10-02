@@ -17,16 +17,25 @@ class Library
 		end
 	end
 
-def add_new_book(title)
-	new_book = {
-		title: title,
-		rental_details: {
-			student_name: "",
-			date: ""
+	def add_new_book(title)
+		new_book = {
+			title: title,
+			rental_details: {
+				student_name: "",
+				date: ""
+			}
 		}
-	}
 
-	@books << new_book
-end
+		@books << new_book
+	end
+
+	def update_rental_details(title, name, date)
+		for book in @books
+			if book[:title] == title
+				book[:rental_details][:student_name] = name
+				book[:rental_details][:date] = date
+			end
+		end
+	end
 
 end

@@ -50,21 +50,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Library.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Library.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Library.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+            <state relative-caret-position="277">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Library.spec.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Library.spec.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/specs/Library.spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="620">
+              <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -73,8 +73,8 @@
       <file leaf-file-name="Student.spec.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/specs/Student.spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="34" />
+            <state relative-caret-position="658">
+              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -92,8 +92,8 @@
         <option value="$PROJECT_DIR$/specs/Student.spec.rb" />
         <option value="$PROJECT_DIR$/specs/Team.spec.rb" />
         <option value="$PROJECT_DIR$/Team.rb" />
-        <option value="$PROJECT_DIR$/specs/Library.spec.rb" />
         <option value="$PROJECT_DIR$/Library.rb" />
+        <option value="$PROJECT_DIR$/specs/Library.spec.rb" />
       </list>
     </option>
   </component>
@@ -147,7 +147,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/chris/CodeClan/homeworks/week-02/day-01/Library.rb" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/chris/CodeClan/homeworks/week-02/day-01/specs/Library.spec.rb" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
@@ -179,12 +179,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1506955601638</updated>
-      <workItem from="1506955602912" duration="3600000" />
+      <workItem from="1506955602912" duration="5021000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3600000" />
+    <option name="totallyTimeSpent" value="5021000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1173" extended-state="6" />
@@ -220,14 +220,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Student.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1392">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/specs/Team.spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
@@ -246,24 +238,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/specs/Student.spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="34" />
+        <state relative-caret-position="658">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/specs/Library.spec.rb">
+    <entry file="file://$PROJECT_DIR$/Student.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="1392">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Library.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        <state relative-caret-position="277">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specs/Library.spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
           <folding />
         </state>
       </provider>

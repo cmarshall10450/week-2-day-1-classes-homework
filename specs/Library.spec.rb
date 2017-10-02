@@ -31,4 +31,17 @@ class TestLibrary < MiniTest::Test
 		@library.add_new_book('Animal Farm')
 		assert_equal(2, @library.books.count)
 	end
+
+	def test_update_rental_details
+		@library.update_rental_details('lord_of_the_rings', 'Chris Marshall', '31/01/2018')
+		book = {
+			title: 'lord_of_the_rings',
+			rental_details: {
+				student_name: 'Chris Marshall',
+				date: '31/01/2018'
+			}
+		}
+
+		assert_equal(book , @library.get_book_by_name('lord_of_the_rings'))
+	end
 end
