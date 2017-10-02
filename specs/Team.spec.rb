@@ -37,4 +37,14 @@ class TestTeam < MiniTest::Test
 	def test_player_in_team__player_not_in_team
 		assert_equal(false, @team.player_in_team?('Not A Player'))
 	end
+
+	def test_update_points__team_won
+		@team.update_points('win')
+		assert_equal(3, @team.points)
+	end
+
+	def test_update_points__team_lost
+		@team.update_points('loss')
+		assert_equal(0, @team.points)
+	end
 end
