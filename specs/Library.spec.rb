@@ -26,4 +26,9 @@ class TestLibrary < MiniTest::Test
 	def test_get_book_rental_details
 		assert_equal(@book[:rental_details], @library.get_book_rental_details('lord_of_the_rings'))
 	end
+	
+	def test_add_new_book
+		@library.add_new_book('Animal Farm')
+		assert_equal(2, @library.books.count)
+	end
 end
